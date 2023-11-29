@@ -5,7 +5,21 @@
 body {
     margin: 0;
 }
-.navbar{
-    height: 25%;
+/* 更改按鈕顏色 */
+.nav-link {
+    color: rgb(53, 53, 53);
 
+}
+.nav :hover{
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(124, 124, 124); */
+    text-shadow: 0.1em 0.1em 0.2em rgb(121, 121, 121);
+}
+
+
+/* 更改按鈕顏色 */
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #252525;
+    background-color: rgb(124, 124, 124);
 }
