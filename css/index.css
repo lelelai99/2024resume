@@ -24,6 +24,10 @@ body {
     background-color: rgb(124, 124, 124);
 }
 .imgH{
-    height: 600px;
+    height: 512px;
     object-fit: cover;
 }
+.btn {
+    box-shadow: 0 0 2px 1px lightgray;
+    border-radius: 10rem;
+  }
