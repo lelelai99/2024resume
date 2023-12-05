@@ -9,47 +9,64 @@ body {
     line-height: 1.5rem;
     letter-spacing: 0.1rem;
     font-size: 1rem;
-    font-weight:300;
-    
+    font-weight: 300;
+
 }
-h1,h5{
+
+h1,
+h5 {
     font-weight: 600;
     margin-bottom: 1rem;
 
 }
-h6{
-    
-}
-.p1{
+
+h6 {}
+
+.p1 {
     text-indent: 2rem;
 }
-.line{
+
+.line {
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
-.nav{
+
+.nav {
     height: 100px;
 
 }
+
 /* 更改按鈕顏色 */
 .nav-link {
     color: rgb(53, 53, 53);
 
 }
-.nav :hover{
+
+.nav :hover {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px white, -1px -1px #8a8a8a
 }
+
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #252525;
     background-color: rgb(124, 124, 124);
 }
-.imgH{
+
+.imgH {
     height: 512px;
     object-fit: cover;
 }
+
 .btn {
     box-shadow: 0 0 2px 1px lightgray;
     border-radius: 10rem;
-  }
+}
+
+.scrollDown {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(39, 55, 77);
+}
