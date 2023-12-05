@@ -6,12 +6,22 @@ body {
     margin: 0;
     font-family: 'Noto Sans TC', sans-serif;
     text-align: justify;
-    line-height: 2rem;
+    line-height: 1.5rem;
     letter-spacing: 0.1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight:300;
+    
 }
-h1{
+h1,h5{
     font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+h6{
+    
+}
+.p1{
+    text-indent: 2rem;
 }
 .nav{
     height: 100px;
