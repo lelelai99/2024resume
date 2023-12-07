@@ -78,7 +78,14 @@
           <a class="nav-link " href="#" target="_blank">GitHub</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">Contact Info</a>
+          <a class="nav-link contant-link">Contact Info</a>
+          <dialog class="infoModal ">
+            <h3 class="contactText ">聯絡資訊 Contact Info</h3><br>
+            <p class="contactText "><i class="bi bi-balloon"></i>:1999.10.25</p>
+            <p class="contactText "><i class="bi bi-telephone"></i>:0911-322857</p>
+            <p class="contactText "><i class="bi bi-envelope"></i>:e8539518@gmail.com</p>
+          <button class="close">close</button>
+          </dialog>
         </li>
       </ul>
     </nav>
@@ -196,7 +203,16 @@
   <script src="./parallas-css/parallax.js"></script>
   <script>
     AOS.init();
-    gsap.fromTo(".scrollDown", { x: 0 }, { x: 0 })
+    // gsap.fromTo(".scrollDown", { x: 0 }, { x: 0 })
+    let btn = document.querySelector(".contant-link");
+    let infoModal = document.querySelector(".infoModal");
+    let close = document.querySelector(".close");
+    btn.addEventListener("click", function () {
+      infoModal.showModal();
+    })
+    close.addEventListener("click", function () {
+      infoModal.close();
+    })
   </script>
 </body>
 
