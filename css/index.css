@@ -28,7 +28,17 @@ h5 {
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
-
+a:link{
+    color: rgb(39, 39, 39);
+}
+/*(a的專用) :visited 拜訪過的連結 */
+a:visited{
+    color: rgb(39, 39, 39);
+}
+/* :hover -botton-滑動效果/滑鼠移動至該位會產生的效果 */
+a:hover{
+    color: aliceblue;
+}
 .nav {
     height: 100px;
 
@@ -65,7 +75,7 @@ h5 {
 }
 
 .scrollDown {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     line-height: 5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
