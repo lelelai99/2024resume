@@ -80,10 +80,17 @@ dialog::backdrop {
     text-align: center;
     text-shadow: none;
 }
-.contactText:hover{
+.contactText .bi:hover{
     pointer-events: none;
     
 }
+.close{
+    border: 0;
+    height: 2rem;
+    border-bottom: 0.2rem gray solid;
+    background-color: unset;
+}
+
 
 .imgH {
     height: 512px;
