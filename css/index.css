@@ -122,20 +122,3 @@ dialog::backdrop {
     border-radius: 0.2rem;
 }
 
-.parallax-window-1 {
-    width: 100%;
-    min-height: 400px;
-    background: transparent;
-
-}
-
-.parallax-window-3 {
-    width: 100%;
-    min-height: 600px;
-    background: transparent;
-
-}
-
-.box {
-    height: 50rem;
-}
