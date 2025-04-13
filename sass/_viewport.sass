@@ -1,0 +1,16 @@
+// 斷點設置
+@mixin minphone
+    @media all and (min-width: 20em)/*320px*/
+        @content
+
+@mixin ipad
+    @media all and (min-width: 48em)/*768px*/
+        @content
+
+@mixin maxcom
+    @media all and (min-width: 80em)/*1280px*/
+        @content
+
+@mixin maxcom-1920
+    @media all and (min-width: 118em)/*1888px*/
+        @content

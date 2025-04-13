@@ -18,7 +18,9 @@ h5 {
     margin-bottom: 1rem;
 }
 
-
+.mySwiper{
+    max-width: 100%;
+}
 .p1 {
     text-indent: 2rem;
 }
@@ -91,10 +93,14 @@ dialog::backdrop {
     background-color: unset;
 }
 
+/* .carousel-inner{
+    max-width: 100%;
 
+} */
 .imgH {
-    height: 512px;
+    height: 800px;
     object-fit: cover;
+
 }
 
 .btn {
